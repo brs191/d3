@@ -1,0 +1,7 @@
+d3.selectAll("circle")
+    .data()
+    .attr("cx", 30)
+    .attr("cy", 30)
+    .attr("r", 10)
+    .attr("fill", "green")
+d3.select("rect").attr("x", 20).attr("y", 50).attr("width", 60).attr("height", 10)
